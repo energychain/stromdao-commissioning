@@ -1,0 +1,36 @@
+{
+  "name": "stromdao-commissioning",
+  "version": "0.0.1",
+  "description": "Meter Point electricity commisioning based on StromDAO Business Object and Energy Blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/energychain/stromdao-commissioning.git"
+  },
+  "keywords": [
+    "grid",
+    "meter",
+    "point",
+    "automated",
+    "stromdao",
+    "commissioning",
+    "businessobject"
+  ],
+  "author": "Thorsten Zoerner <thorsten.zoerner@stromdao.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/energychain/stromdao-commissioning/issues"
+  },
+  "homepage": "https://github.com/energychain/stromdao-commissioning#readme",
+  "dependencies": {
+    "command-line-args": "^4.0.6",
+    "csv": "^1.1.1",
+    "sandbox.js": "^2.0.2",
+    "sbx": "^2.1.0",
+    "stromdao-businessobject": "^0.4.0",
+    "vm-plus": "^2.0.1"
+  }
+}
